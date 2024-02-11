@@ -21,7 +21,7 @@ public class OrderStep extends Config {
                 .body(order)
                 .when()
                 .post(POST_ORDER_CREATE)
-                .then().log().all(); // для отладки логи
+                .then().log().all();
 
     }
 

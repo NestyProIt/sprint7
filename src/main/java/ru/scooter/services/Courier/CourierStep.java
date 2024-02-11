@@ -13,7 +13,6 @@ public class CourierStep extends Config {
     public static final String DELETE_COURIER = "/api/v1/courier/";//API Удаление курьера
 
     @Step("Создать курьера")
-    @Description("POST-запрос")
     public ValidatableResponse createNewCourier(CourierCreate courier) {
     return given().log().all()
                 .spec(getSpec())
