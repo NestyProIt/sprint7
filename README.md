@@ -14,14 +14,14 @@ Cпринт 7
 
 Технологии
 
-Java 11
-JUnit 4.13.2
-Maven 11
-AspectJ 1.9.7
-Allure (JUnit 4) 2.15.0
-REST Assured 4.4.0
-Gson 2.8.9
-Maven Surefire Plugin 2.22.2
+- Java 11
+- JUnit 4.13.2
+- Maven 11
+- AspectJ 1.9.7
+- Allure (JUnit 4) 2.15.0
+- REST Assured 4.4.0
+- Gson 2.8.9
+- Maven Surefire Plugin 2.22.2
 Запуск проекта
 
 Ввести в консоли Run Anything (дважды нажав Ctrl): mvn clean test
